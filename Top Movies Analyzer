@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asian Series Posters | Pink Edition</title>
+
+<style>
+:root{
+  --pink:#ff5fa2;
+  --pink-soft:#ffe1ef;
+  --pink-dark:#e91e63;
+  --bg:#fff6fb;
+}
+
+body{
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:var(--bg);
+  color:#333;
+}
+
+header{
+  background:linear-gradient(135deg,#ff8fc7,#ff4f9a);
+  color:white;
+  text-align:center;
+  padding:50px 20px;
+}
+
+section{
+  max-width:1200px;
+  margin:auto;
+  padding:30px 20px;
+}
+
+h2{
+  color:var(--pink-dark);
+  margin-bottom:20px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+  gap:22px;
+}
+
+.card{
+  background:white;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 12px 28px rgba(255,95,162,.25);
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+.card img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+}
+
+.card-body{
+  padding:14px;
+}
+
+.card-body h3{
+  font-size:.95rem;
+  margin:0 0 6px;
+}
+
+.meta{
+  font-size:.8rem;
+  color:#777;
+}
+
+.score{
+  margin-top:8px;
+  display:inline-block;
+  background:var(--pink-dark);
+  color:white;
+  padding:5px 12px;
+  border-radius:20px;
+  font-weight:bold;
+  font-size:.8rem;
+}
+
+footer{
+  text-align:center;
+  padding:25px;
+  font-size:.9rem;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Asian Series 🎀</h1>
+  <p>ซีรีส์วายไทย & ซีรีส์จีน • โปสเตอร์แน่น ๆ</p>
+</header>
+
+<section>
+<h2>🇹🇭 ซีรีส์วายไทย</h2>
+<div class="grid">
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/6N9G4qN9WjY5r1pJg9bYx4JpYcG.jpg">
+  <div class="card-body">
+    <h3>KinnPorsche</h3>
+    <div class="meta">2022</div>
+    <div class="score">⭐ 8.8</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/qS9Zp1pG1HsRvN7kYMva9n32CuG.jpg">
+  <div class="card-body">
+    <h3>Bad Buddy</h3>
+    <div class="meta">2021</div>
+    <div class="score">⭐ 8.7</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/fmK9H0YwGJYV9Wcv16O3MHuvb6j.jpg">
+  <div class="card-body">
+    <h3>I Told Sunset About You</h3>
+    <div class="meta">2020</div>
+    <div class="score">⭐ 8.9</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/z8T7lY5XzF5sJq0iQpKxX8YkKzG.jpg">
+  <div class="card-body">
+    <h3>Moonlight Chicken</h3>
+    <div class="meta">2023</div>
+    <div class="score">⭐ 8.5</div>
+  </div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>🇨🇳 ซีรีส์จีน</h2>
+<div class="grid">
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/6EwJ0Fzv7p1pGg0sYkC6qGxYx4M.jpg">
+  <div class="card-body">
+    <h3>The Untamed</h3>
+    <div class="meta">2019</div>
+    <div class="score">⭐ 8.9</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/fnZpJpX3n9L8E6p6d1kKk2sLJzY.jpg">
+  <div class="card-body">
+    <h3>Hidden Love</h3>
+    <div class="meta">2023</div>
+    <div class="score">⭐ 8.7</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/2yYjvZ3Gzdh0dX8GZFODdgNpTiF.jpg">
+  <div class="card-body">
+    <h3>Love Between Fairy and Devil</h3>
+    <div class="meta">2022</div>
+    <div class="score">⭐ 8.6</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.tmdb.org/t/p/w500/8o7q9yZq9KoU3z7e95rrNTcYWc4.jpg">
+  <div class="card-body">
+    <h3>Word of Honor</h3>
+    <div class="meta">2021</div>
+    <div class="score">⭐ 8.6</div>
+  </div>
+</div>
+
+</div>
+</section>
+
+<footer>
+Poster Heavy Pink Theme 💕 | Asian Series Collection
+</footer>
+
+</body>
+</html>
